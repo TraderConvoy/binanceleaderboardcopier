@@ -91,16 +91,11 @@ I also recommend to use this extension : <a href='https://chrome.google.com/webs
 Enable it and set the refresh time to 600 seconds.<br>
 
 <br>
-Any donation is accepted 🙁 <br>
-It really taked a lot of time to code this Bot .<br>
-You can also use my referral ID (If not already registred on binance) :<br>
-https://accounts.binance.com/en/register?ref=39750507<br>
-ADA address:<br>
-DdzFFzCqrhsnce5Ufx3VEoh5pUrEFssxGc81LHDVLtNcj5CzDc39Z7dRkjugoQMP9NvYMVAQnWuUn7uzpwvmijVv8XBu9X9PSoYRbJWG<br>
-BTC address:<br>
-1KxiArHuQ2xT2eQRhwd3kKkfr4vY8oyuD<br>
-DOT address:<br>
-14oXb3bLRZEdqgbxvhiSuCb4Jjkc78FuX9yhj3s6pPw53aWZ<br>
-ETH address:<br>
-0xd35a8505c6b9750913ebef8f158baa83ab51df57<br>
-I really apperciate any donation 😘<br>
+
+
+Updates:
+1] php7>php8
+  Removed get_magic_quotes_gpc >>>
+  $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;  
+  as $theValue = $theValue;
+  on admin/index.php line 15
